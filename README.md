@@ -2,9 +2,9 @@
 
 Este repositório contém scripts utilizados para gerar e salvar partições de treino e teste, baseadas na [base de dados de discurso de ódio em português](https://github.com/paulafortuna/Portuguese-Hate-Speech-Dataset), reduzida a 27 rótulos (foram mantidos somente os rótulos com 10 ou mais intências) disponibilizada por Paula Fortuna.
 
-O script responsável por realizar este procedimento, localizado em [`Scripts/SalvaParticoes.py`](https://github.com/Carlosbera7/SalvarParticoes/blob/main/Scripts/SalvaParticoes.py), foi desenvolvido baseado no trabalho de Sechidis, K., Tsoumakas, G., & Vlahavas, I. (2011). Onde foi apresentada uma tecnica para fazer a estratificação multi_label.
+O script responsável por realizar este procedimento, localizado em [`Scripts/SalvaParticoesHierarquico.py`](https://github.com/Carlosbera7/SalvarParticoesMultiLabel/blob/main/Script/SalvaParticoesHierarquico.py), foi desenvolvido baseado no trabalho de Sechidis, K., Tsoumakas, G., & Vlahavas, I. (2011). Onde foi apresentada uma tecnica para fazer a estratificação multi_label.
 
-As partições geradas são salvas no diretório [`Data/`](https://github.com/Carlosbera7/SalvarParticoes/tree/main/Data). Este repositório contém as partições já geradas e utilizadas nos experimentos, disponíveis em [`Data/Particoes Utilizadas`](https://github.com/Carlosbera7/SalvarParticoes/tree/main/Data/Particoes%20Utilizadas). O objetivo é garantir consistência nos dados utilizados em experimentos futuros. O código pode ser testado diretamente em um ambiente virutal [`Execução`](https://obscure-xylophone-wrr9q4j5v525g6.github.dev/)
+As partições geradas são salvas no diretório [`Data/`](https://github.com/Carlosbera7/SalvarParticoesMultiLabel/tree/main/Data). Este repositório contém as partições já geradas e utilizadas nos experimentos, disponíveis em [`Data/`](https://github.com/Carlosbera7/SalvarParticoesMultiLabel/tree/main/Data). O objetivo é garantir consistência nos dados utilizados em experimentos futuros. O código pode ser testado diretamente em um ambiente virutal [`Execução`](https://expert-space-winner-76gqpqw9prcxj4p.github.dev/)
 
 ## Detalhes das Partições
 
