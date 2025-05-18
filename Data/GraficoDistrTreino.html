@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Distribuição de Classes</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div style="width: 80%; margin: auto;">
+        <canvas id="classDistributionChart"></canvas>
+    </div>
+    <script>
+        // Dados do gráfico
+        const data = {
+            labels: [
+                "Hate speech", "Sexism", "Body", "Racism", "Ideology", "Homophobia", "Origin", "Religion",
+                "Other lifestyle", "Fat people", "Left-wing ideology", "Ugly people", "Black people", "Fat women",
+                "Feminists", "Gays", "Immigrants", "Islamists", "Lesbians", "Men", "Muslims", "Refugees",
+                "Trans women", "Women", "Transsexuals", "Ugly women", "Migrants", "Homosexuals"
+            ],
+            datasets: [
+                {
+                    label: "Instâncias Positivas",
+                    data: [
+                        800, 450, 120, 90, 50, 200, 100, 20, 30, 150, 60, 80, 90, 70,
+                        60, 50, 40, 30, 100, 50, 40, 20, 150, 300, 100, 80, 90, 120
+                    ],
+                    backgroundColor: "rgba(75, 192, 192, 0.5)",
+                    borderColor: "rgba(75, 192, 192, 1)",
+                    borderWidth: 1
+                },
+                {
+                    label: "Instâncias Negativas",
+                    data: [
+                        4868 - 800, 4868 - 450, 4868 - 120, 4868 - 90, 4868 - 50, 4868 - 200, 4868 - 100, 4868 - 20,
+                        4868 - 30, 4868 - 150, 4868 - 60, 4868 - 80, 4868 - 90, 4868 - 70,
+                        4868 - 60, 4868 - 50, 4868 - 40, 4868 - 30, 4868 - 100, 4868 - 50, 4868 - 40, 4868 - 20,
+                        4868 - 150, 4868 - 300, 4868 - 100, 4868 - 80, 4868 - 90, 4868 - 120
+                    ],
+                    backgroundColor: "rgba(153, 102, 255, 0.5)",
+                    borderColor: "rgba(153, 102, 255, 1)",
+                    borderWidth: 1
+                }
+            ]
+        };
+
+        // Configuração do gráfico
+        const config = {
+            type: "bar",
+            data: data,
+            options: {
+                responsive: true,
+                plugins: {
+                    legend: {
+                        position: "top",
+                    },
+                    title: {
+                        display: true,
+                        text: "Distribuição de Classes (Positivas e Negativas)"
+                    }
+                },
+                scales: {
+                    x: {
+                        title: {
+                            display: true,
+                            text: "Classes"
+                        }
+                    },
+                    y: {
+                        title: {
+                            display: true,
+                            text: "Número de Instâncias"
+                        }
+                    }
+                }
+            }
+        };
+
+        // Renderiza o gráfico
+        const ctx = document.getElementById("classDistributionChart").getContext("2d");
+        new Chart(ctx, config);
+    </script>
+</body>
+</html>
