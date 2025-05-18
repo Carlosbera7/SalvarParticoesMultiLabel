@@ -10,6 +10,7 @@ As partições geradas são salvas no diretório [`Data/`](https://github.com/Ca
 
 - **Partição de Treino:**  
   Contém 3.967 instâncias, sendo:
+  '
   [Uploading<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -95,6 +96,7 @@ As partições geradas são salvas no diretório [`Data/`](https://github.com/Ca
     </script>
 </body>
 </html>
+'
  GraficoDistrTreino.html…]()
 
   ![DistribuicaoClasses-Treino](https://github.com/user-attachments/assets/9aee28d9-eff9-4d39-921f-e76081cb2afe)
