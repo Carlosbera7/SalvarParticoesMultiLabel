@@ -12,6 +12,9 @@ As partições geradas são salvas no diretório [`Data/`](https://github.com/Ca
   Contém 3.967 instâncias, sendo:
   ![DistribuicaoClasses-Treino](https://github.com/user-attachments/assets/9aee28d9-eff9-4d39-921f-e76081cb2afe)
 
+  [Veja o gráfico interativo aqui]([URL_DO_GITHUB_PAGES](https://github.com/Carlosbera7/SalvarParticoesMultiLabel/blob/main/Data/GraficoDistrTreino.html))
+
+
 
 - **Partição de Teste:**  
   Contém 1.701 instâncias, sendo:  
