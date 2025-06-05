@@ -6,6 +6,22 @@ O script responsável por realizar este procedimento, localizado em [`Scripts/Sa
 
 As partições geradas são salvas no diretório [`Data/`](https://github.com/Carlosbera7/SalvarParticoesMultiLabel/tree/main/Data). Este repositório contém as partições já geradas e utilizadas nos experimentos, disponíveis em [`Data/`](https://github.com/Carlosbera7/SalvarParticoesMultiLabel/tree/main/Data). O objetivo é garantir consistência nos dados utilizados em experimentos futuros. O código pode ser testado diretamente em um ambiente virutal [`Execução`](https://expert-space-winner-76gqpqw9prcxj4p.github.dev/)
 
+## Distribuição dos Dados
+
+- **Dados Originais:**  
+O gráfico a seguir exibe a distribuição dos dados conforme foram rotulados na base disponibilizada no trabalho [base de dados de discurso de ódio em português](https://github.com/paulafortuna/Portuguese-Hate-Speech-Dataset).
+
+ ![graficoDit](https://github.com/user-attachments/assets/975a6891-6628-4dd8-bb52-81077e820972)
+
+- **Dados Reduzidos:**  
+O gráfico a seguir exibe a distribuição dos dados pós um processo de redução, ou seja, só foram mantidas as classes que tivessem ao menos 10 instancias.
+
+![GraficoDistReduzido](https://github.com/user-attachments/assets/3658ba95-f3ba-41bd-84a9-3407cae2fd9a)
+
+
+ ![graficoDit](https://github.com/user-attachments/assets/975a6891-6628-4dd8-bb52-81077e820972)
+ 
+
 ## Detalhes das Partições
 
 - **Partição de Treino:**  
@@ -13,7 +29,7 @@ As partições geradas são salvas no diretório [`Data/`](https://github.com/Ca
   ![DistribuicaoClasses-Treino](https://github.com/user-attachments/assets/9aee28d9-eff9-4d39-921f-e76081cb2afe)
 
   [Veja o gráfico interativo aqui]
-  ![graficoDit](https://github.com/user-attachments/assets/975a6891-6628-4dd8-bb52-81077e820972)
+ 
 
 
 
