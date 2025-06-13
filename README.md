@@ -23,12 +23,14 @@ O script responsável por realizar este procedimento, localizado em [`Scripts/Sa
 
 - **Partição de Treino:**  
   Contém 3.967 instâncias, sendo:
-  ![DistribuicaoClasses-Treino](https://github.com/user-attachments/assets/9aee28d9-eff9-4d39-921f-e76081cb2afe)
+  ![treino](https://github.com/user-attachments/assets/47d3a6a7-f75a-400e-8f93-43eaf9028e43)
+
 
 
 - **Partição de Teste:**  
   Contém 1.701 instâncias, sendo:  
-  ![DistribuicaoClasses-Teste](https://github.com/user-attachments/assets/10c9b5d9-48ff-4923-b3b9-e1b45a4cd62f)
+  ![teste](https://github.com/user-attachments/assets/5c46c5c0-8181-4148-b440-5a6c7c5152f4)
+
 
 As partições geradas são salvas no diretório [`Data/`](https://github.com/Carlosbera7/SalvarParticoesMultiLabel/tree/main/Data). Este repositório contém as partições já geradas e utilizadas nos experimentos, disponíveis em [`Data/`](https://github.com/Carlosbera7/SalvarParticoesMultiLabel/tree/main/Data). O objetivo é garantir consistência nos dados utilizados em experimentos futuros. O código pode ser testado diretamente em um ambiente virutal [`Execução`](https://expert-space-winner-76gqpqw9prcxj4p.github.dev/)
 
