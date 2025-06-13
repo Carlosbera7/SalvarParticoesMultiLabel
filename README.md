@@ -24,6 +24,7 @@ O script responsável por realizar este procedimento, localizado em [`Scripts/Sa
 - **Partição de Treino:**  
   Contém 3.967 instâncias, sendo:
   ![treino](https://github.com/user-attachments/assets/47d3a6a7-f75a-400e-8f93-43eaf9028e43)
+  ![trino](https://github.com/user-attachments/assets/8ad7cbb4-d525-4ed3-9f0c-152d7a942a17)
 
 
 
